@@ -1,0 +1,124 @@
+body{
+    background-image: url(background2.avif);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(231, 43, 131);
+    font-weight: bold;
+    font-size: 60px;
+}
+section{
+    width: 100%;
+}
+.div1{
+    width: 60%;
+    float: left;
+    height: 500px;
+}
+.div2{
+    width: 30%;
+    float: left;
+    margin-left:40px ;
+    margin-top: 50px;
+    height: 500px;
+}
+fieldset{
+    border-radius: 10px;
+    margin-left: 30px;
+}
+legend{
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(10, 238, 10);
+}
+label{
+    font-weight: bold;
+    font-size: 30px;
+    animation: infinite;
+    animation-name: lb;
+    animation-duration: 4s;
+    width: 200px;
+    display: block;
+}
+@keyframes lb{
+    0%{color: cyan;}
+    50%{color: springgreen;}
+    100%{color: tomato;}
+}
+.it{
+    width: 200px;
+    height: 20px;
+    color: blue;
+}
+.ns{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+.ensemble{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blue;
+    margin-left: 80px;
+}
+.ensemble:hover{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #c7c706;
+}
+ul{
+    list-style: square;
+}
+.ul1{
+    float: left;
+    display: block;
+    width: 40%;
+}
+.ul2{
+    float: left;
+    display: block;
+    width: 50%;
+}
+span{
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;  
+    font-size: x-large;
+    font-weight: bold;
+}
+.tab {
+    float: left;
+    display: block;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.th, .td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.th {
+    background-color: #ff6b6b;
+    color: white;
+}
+.tr:hover {
+    background-color: #ffe6e6;
+}

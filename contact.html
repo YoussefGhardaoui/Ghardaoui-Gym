@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez-Nous</h1>
+    </header>
+    <section>
+        <div class="div1">
+            <form action="#">
+                <fieldset>
+                    <legend>Informations Personnelles</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nom">Nom</label></td>
+                            <td><input type="text" class="it"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="prénom">Prénom</label></td>
+                            <td><input type="text"class="it"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Genre">Genre</label></td>
+                            <td><input type="radio"name="g">Musculin<input type="radio"name="g">Féminin</td>
+                        </tr>
+                        <tr>
+                            <td><label for="Date de naissance">Date de naissance</label></td>
+                            <td><input type="date"class="it"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="adreese">Adresse e-mail</label></td>
+                            <td><input type="email" placeholder="exemple@domaine.com"class="it"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="téléphone">Téléphone</label></td>
+                            <td><input type="tel" placeholder="+216********"class="it"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form><br>
+            <form action="#">
+                <fieldset>
+                    <legend>Choix de Sport</legend>
+                    <table>
+                        <tr>
+                            <td><label for="activité préféré">Activité Préféré</label></td>
+                            <td>
+                                <select name="sp" id="sp">
+                                    <option value="0">Sélection l'activité</option>
+                                    <option value="1">Renforcement musculaire</option>
+                                    <option value="2">Cardio-training</option>
+                                    <option value="3">Cours collectifs</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="niveau sportif">Niveau Sportif</label></td>
+                            <td><input type="radio"name="niveau"class="ns" checked>Débutant<input type="radio"name="niveau"class="ns">Intermédiaire<input type="radio"name="niveau"class="ns">Avancé</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form><br>
+            <input type="submit"value="Envoyer" class="ensemble">
+            <input type="reset"value="Annuler"class="ensemble">
+        </div>
+        <div class="div2">
+            <h2>Pourquoi souhaitez-vos suivre cette salle ?</h2>
+            <textarea name="text" id="text" rows="10" cols="50"placeholder="Expliquez vos motivation..."></textarea>
+        </div>
+        <ul class="ul1">
+            <li><span>📞:24776455</span></li>
+            <li><span>📧:ghardaouiyoussef@gmail.com</span></li>
+            <li><span>📍:Zahrouni Rue Nakhil</span></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebbok</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="https://www.youtube.com">Youtube</a></li>
+        </ul>
+        <table class="tab">
+            <tr class="tr">
+                <th class="th">Jour</th>
+                <th class="th">Exercice / Cours</th>
+                <th class="th">Heure</th>
+                <th class="th">Salle / Coach</th>
+            </tr>
+            <tr class="tr">
+                <td class="td">Lundi</td>
+                <td class="td">Musculation</td>
+                <td class="td">09:00 - 11:00</td>
+                <td class="td">Salle 1 / Ahmed</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Mardi</td>
+                <td class="td">Yoga</td>
+                <td class="td">10:00 - 11:30</td>
+                <td class="td">Salle 2 / Ines</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Mercredi</td>
+                <td class="td">Cardio</td>
+                <td class="td">14:00 - 15:00</td>
+                <td class="td">Salle 3 / Marwen</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Jeudi</td>
+                <td class="td">Pilates</td>
+                <td class="td">11:00 - 12:00</td>
+                <td class="td">Salle 1 / Sarah</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Vendredi</td>
+                <td class="td">Crossfit</td>
+                <td class="td">16:00 - 17:00</td>
+                <td class="td">Salle 2 / Omar</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
